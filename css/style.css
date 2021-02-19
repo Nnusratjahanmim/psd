@@ -1,0 +1,97 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #626262
+}
+/*header start*/
+header{
+	padding:20px 0; 
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 14px;
+	float: left;
+	width: 15%;
+	/*border: 2px solid red;*/
+	
+}
+.logo img{
+	width: 100%;
+}
+.meun{
+	float: right;
+     width: 70%;
+	/*border: 2px solid red;*/
+	
+}
+.meun ul{
+	float: right;
+
+}
+.meun ul li{
+	list-style: none;
+	float: left;
+}
+.meun ul li a{
+	margin: 0 50px;
+	padding: 5px ;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+	border-bottom: 1px solid transparent;
+}
+.meun ul li:last-child a{
+	margin-right: 0;
+}
+.meun ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.b_img img{
+	width: 100%
+}
+/*banner end*/
+/*photodiary start*/
+.photodiary{}
+.p_content{
+	/*border:1px solid blue;*/
+	margin:0 115px; 
+}
+.p_content p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.p_content p:first-child{
+	margin-top: 80px; 
+	margin-bottom:  0px;
+	display: inline-block;
+	font-family:'Ubuntu', sans-serif; 
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.p_content p:last-child{
+	margin-top: 50px; 
+	margin-bottom:  0px;
+	display: inline-block;
+	font-family:'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+
+.p_content h1{	
+	margin:30px 0;
+	font-size: 30px;
+}
+
+/*photodiary end*/
